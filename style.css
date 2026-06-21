@@ -334,7 +334,8 @@ section{padding:100px 5vw}
 /* ── TEAM ── */
 #team{background:rgba(248,250,252,.96)}
 .sl-outer{overflow:hidden;margin:0 -5vw;padding:10px 5vw 32px}
-.sl-track{display:flex;gap:20px;transition:transform .55s cubic-bezier(.4,0,.2,1)}
+.sl-track{display:flex;gap:20px;transition:transform .55s cubic-bezier(.4,0,.2,1);cursor:grab;user-select:none}
+.sl-track:active{cursor:grabbing}
 .tc{
   min-width:190px;max-width:190px;
   background:#fff;border:1px solid rgba(148,163,184,.18);
@@ -419,6 +420,7 @@ section{padding:100px 5vw}
 .eh2{background:linear-gradient(135deg,#fecaca,#fca5a5)}
 .eh3{background:linear-gradient(135deg,#fde68a,#fbbf24)}
 .eh4{background:linear-gradient(135deg,#c7d2fe,#818cf8)}
+.eh5{background:linear-gradient(135deg,#6ee7b7,#34d399)}
 .ev-icon{
   width:52px;height:52px;border-radius:14px;
   background:rgba(255,255,255,.85);
@@ -458,7 +460,8 @@ section{padding:100px 5vw}
 /* ── GALLERY ── */
 #gallery{background:rgba(248,250,252,.96)}
 .gal-outer{overflow:hidden;margin:0 -5vw;padding:10px 5vw 30px}
-.gal-track{display:flex;gap:14px;transition:transform .55s cubic-bezier(.4,0,.2,1)}
+.gal-track{display:flex;gap:14px;transition:transform .55s cubic-bezier(.4,0,.2,1);cursor:grab;user-select:none}
+.gal-track:active{cursor:grabbing}
 .gi{
   min-width:260px;height:200px;border-radius:var(--r);
   overflow:hidden;flex-shrink:0;cursor:pointer;
