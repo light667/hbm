@@ -373,6 +373,15 @@ section{padding:100px 5vw}
   color:#2563eb;
 }
 .ti-country{font-size:10px;color:#64748b;margin-top:4px}
+.ti-bio{
+  margin-top:10px;
+  padding-top:10px;
+  border-top:1px solid rgba(148,163,184,.16);
+  font-size:10.5px;
+  line-height:1.55;
+  color:#475569;
+  min-height:54px;
+}
 /* ── SCHEDULE ── */
 #schedule{background:rgba(248,250,252,.96)}
 .sch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
