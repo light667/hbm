@@ -30,8 +30,20 @@ window.addEventListener('scroll', () => {
 
 /* ── MOBILE MENU ── */
 function mobToggle(){
-  document.getElementById('mob').classList.toggle('open');
+  const mob = document.getElementById('mob');
+  const isOpen = mob.classList.toggle('open');
+  const btn = document.querySelector('.hbg');
+  document.body.classList.toggle('menu-open', isOpen);
+  if(btn) btn.setAttribute('aria-expanded', isOpen);
 }
+window.addEventListener('resize', () => {
+  if(window.innerWidth > 768){
+    document.getElementById('mob').classList.remove('open');
+    document.body.classList.remove('menu-open');
+    const btn = document.querySelector('.hbg');
+    if(btn) btn.setAttribute('aria-expanded', 'false');
+  }
+});
 
 /* ── SMOOTH NAV HIGHLIGHT ── */
 function highlightNav(){
