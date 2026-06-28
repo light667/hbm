@@ -382,6 +382,13 @@ section{padding:100px 5vw}
   color:#475569;
   min-height:54px;
 }
+.social-container {
+    display: flex;
+    flex-direction: row; /* Aligne horizontalement */
+    gap: 15px; /* Ajoute de l'espace entre les icônes */
+    justify-content: center; /* Centre les icônes (utilisez flex-start pour aligner à gauche) */
+    align-items: center; /* Centre verticalement si les hauteurs varient */
+}
 /* ── SCHEDULE ── */
 #schedule{background:rgba(248,250,252,.96)}
 .sch-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
