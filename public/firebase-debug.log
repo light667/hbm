@@ -1,0 +1,50 @@
+[debug] [2026-06-27T22:21:44.390Z] ----------------------------------------------------------------------
+[debug] [2026-06-27T22:21:44.394Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\netha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-06-27T22:21:44.395Z] CLI Version:   15.22.3
+[debug] [2026-06-27T22:21:44.395Z] Platform:      win32
+[debug] [2026-06-27T22:21:44.395Z] Node Version:  v24.14.1
+[debug] [2026-06-27T22:21:44.395Z] Detected Agent: unknown
+[debug] [2026-06-27T22:21:44.396Z] Time:          Sat Jun 27 2026 22:21:44 GMT+0000 (temps universel coordonné)
+[debug] [2026-06-27T22:21:44.396Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\netha\Dev\projet hbm
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-06-27T22:22:06.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-27T22:22:06.801Z] > authorizing via signed-in user (nethaniahdjossou@gmail.com)
+[debug] [2026-06-27T22:22:06.803Z] Checked if tokens are valid: false, expires at: 1781534951988
+[debug] [2026-06-27T22:22:06.804Z] Checked if tokens are valid: false, expires at: 1781534951988
+[debug] [2026-06-27T22:22:06.804Z] > refreshing access token with scopes: []
+[debug] [2026-06-27T22:22:06.807Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-27T22:22:06.808Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-27T22:22:07.286Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-27T22:22:07.287Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-27T22:22:07.305Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2026-06-27T22:22:08.199Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-06-27T22:22:08.200Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] 
+=== Hosting Setup
+[debug] [2026-06-27T22:22:11.028Z] Checked if tokens are valid: true, expires at: 1782602526287
+[debug] [2026-06-27T22:22:11.028Z] Checked if tokens are valid: true, expires at: 1782602526287
+[debug] [2026-06-27T22:22:11.028Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/heavengate-bible-mission [none]
+[debug] [2026-06-27T22:22:11.399Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/heavengate-bible-mission 200
+[debug] [2026-06-27T22:22:11.400Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/heavengate-bible-mission {"projectId":"heavengate-bible-mission","projectNumber":"561586989596","displayName":"heavengate-bible-mission","name":"projects/heavengate-bible-mission","resources":{"hostingSite":"heavengate-bible-mission"},"state":"ACTIVE","etag":"1_00db73fe-65a1-418c-8701-c31eec06df45"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
